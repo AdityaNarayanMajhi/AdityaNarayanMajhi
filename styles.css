@@ -1,0 +1,99 @@
+
+body {
+    background: linear-gradient(to bottom, #87CEEB,#87eb91);
+    color: #87eb91;
+    transition: background 0.5s ease;
+}
+
+#weather-suggestions {
+    list-style-type: none;
+    padding: 0;
+}
+
+#weather-suggestions li {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 32px;
+}
+
+#mysug {
+    background: rgba(0,0, 0, 0.3);
+    color: rgb(255, 215, 0);
+    text-align: center;
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.navbar-brand,
+.nav-link,
+.btn {
+    color: rgb(29, 26, 26) !important;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+    /* Change to desired hover color */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: black;
+    /* Consistent text color */
+}
+
+.cards {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-style:solid;
+}
+
+.footer {
+    background-color: #343a40;
+    /* Dark background for the footer */
+    color: white;
+    /* White text for contrast */
+}
+
+@media (max-width: 768px) {
+    h1.display-3 {
+        font-size: 2rem;
+    }
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    color: white;
+    background-color: #007bff;
+    /* Change this color as per your theme */
+    border-radius: 31%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a i {
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    background-color: #0056b3;
+    /* Darker shade for hover effect */
+}
